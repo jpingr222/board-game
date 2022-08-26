@@ -1,0 +1,32 @@
+.button {
+  --button-color: #000000;
+  --button-background-color: transparent;
+  --button-hover-color: #ffffff;
+  --button-hover-background-color: #000000;
+}
+
+.button-large {
+  --button-font-size: 3rem;
+}
+
+.button {
+  color: var(--button-color);
+  background-color: var(--button-background-color);
+  border: 1px solid var(--button-color);
+  border-radius: 0.5rem;
+  font-size: var(--button-font-size, 1rem);
+  padding: 0.5rem 1rem;
+}  
+
+.button:hover {
+  cursor: pointer;
+  color: var(--button-hover-color);
+  background-color: var(--button-hover-background-color);
+}
+
+.button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+  color: var(--button-color);
+  background-color: var(--button-background-color);
+}

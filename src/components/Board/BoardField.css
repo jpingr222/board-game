@@ -1,0 +1,39 @@
+.board-field {
+  display: grid;
+  grid: repeat(3, 1fr) / repeat(2, 1fr);
+  padding: 15px;
+  border: 1px solid black;
+}
+
+.board-field p {
+  grid-area: 1 / span 2;
+  margin: 0;
+}
+
+.board-field > .piece:nth-child(2) {
+  grid-area: 2 / 1;
+}
+
+.board-field > .piece:nth-child(3) {
+  grid-area: 2 / 2;
+}
+
+.board-field > .piece:nth-child(4) {
+  grid-area: 3 / 1;
+}
+
+.board-field > .piece:nth-child(5) {
+  grid-area: 3 / 2;
+}
+
+.board-field-normal {
+  background-color: #f8f9fa;
+}
+
+.board-field-bonus {
+  background-color: #ffc107;
+}
+
+.board-field-trap {
+  background-color: #dc3545;
+}

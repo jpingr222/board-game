@@ -1,0 +1,22 @@
+.piece {
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid #000000;
+  border-radius: 50%;
+}
+
+.piece-1 {
+  background-color: #dc3545;
+}
+
+.piece-2 {
+  background-color: #fd7e14;
+}
+
+.piece-3 {
+  background-color: #ffc107;
+}
+
+.piece-4 {
+  background-color: #198754;
+}
